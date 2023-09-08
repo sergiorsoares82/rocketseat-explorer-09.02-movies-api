@@ -9,6 +9,8 @@ export const Container = styled.div`
 
   margin-bottom: 2.4rem;
 
+  cursor: pointer;
+
   .title {
     font-size: 2.4rem;
     font-weight: 700;

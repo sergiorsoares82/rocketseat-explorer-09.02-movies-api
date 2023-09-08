@@ -7,4 +7,5 @@ export const Container = styled.div`
   color: ${({ theme }) => theme.COLORS.WHITE_2};
   font-size: 1.2rem;
   display: inline;
+  margin-right: 1rem;
 `;

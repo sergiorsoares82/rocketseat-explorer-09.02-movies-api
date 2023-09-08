@@ -62,5 +62,30 @@ export const Container = styled.div`
         font-weight: 400;
       }
     }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      margin: 6rem 0 9.6rem 0;
+
+      button {
+        height: 5.6rem;
+        border-radius: 1rem;
+        padding: 1.6rem;
+        border: none;
+        font-weight: 500;
+      }
+
+      .btn-del {
+        background: #0d0c0f;
+        color: ${({ theme }) => theme.COLORS.PRIMARY_COLOR};
+      }
+
+      .btn-save {
+        color: #312e38;
+        background: ${({ theme }) => theme.COLORS.PRIMARY_COLOR};
+      }
+    }
   }
 `;

@@ -40,7 +40,7 @@ export const Container = styled.div`
     outline: none;
 
     &::placeholder {
-      color: ${({ theme }) => theme.COLORS.GRAY_1};
+      color: ${({ theme }) => theme.COLORS.GRAY_2};
     }
   }
 `;

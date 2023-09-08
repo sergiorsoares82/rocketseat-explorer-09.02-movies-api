@@ -24,7 +24,7 @@ export const Container = styled.div`
         font-weight: 400;
       }
 
-      button {
+      a {
         width: 20rem;
         height: 4.8rem;
         border: none;

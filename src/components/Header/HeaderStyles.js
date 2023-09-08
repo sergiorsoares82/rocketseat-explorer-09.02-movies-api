@@ -55,7 +55,7 @@ export const Container = styled.div`
       align-items: end;
 
       span {
-        text-align: left;
+        text-align: right;
         font-size: 1.4rem;
         font-weight: 700;
       }

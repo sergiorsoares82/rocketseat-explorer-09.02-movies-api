@@ -4,13 +4,13 @@ import { FiPlus, FiX } from 'react-icons/fi';
 export function MovieTag({ isNew, value, onClick, ...rest }) {
   return (
     <Container $isnew={isNew}>
-      <input type='text' value={value} id='' />
+      <input type='text' value={value} {...rest} />
       <button
         type='button'
         onClick={onClick}
         className={isNew ? 'btn-add' : 'btn-del'}
       >
-        {isNew ? <FiX /> : <FiPlus />}
+        {isNew ? <FiPlus /> : <FiX />}
       </button>
     </Container>
   );

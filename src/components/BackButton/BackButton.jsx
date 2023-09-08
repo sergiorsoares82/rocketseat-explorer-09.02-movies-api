@@ -1,12 +1,12 @@
 import { Container } from './BackButtonStyle';
 import { FiArrowLeft } from 'react-icons/fi';
 
-export function BackButton() {
+export function BackButton({ onClick }) {
   return (
     <Container>
-      <a href=''>
+      <button type='button' onClick={onClick}>
         <FiArrowLeft /> Voltar
-      </a>
+      </button>
     </Container>
   );
 }
